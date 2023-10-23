@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Raleway:ital,wght@1,100&family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #f7f4f4;
+}
+ /*Header*/
+
+.header-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('imagens/back.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;  
+    padding: 0 70px;  
+    position: relative;
+
+}
+h1 {
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-align: center;
+    
+}
+h5{
+    letter-spacing: 2px;
+    text-align: justify;
+    
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+header a:hover{
+    color: #ff0000;
+    transform: scale(1.05);
+
+
+}
+
+header nav ul {
+    list-style-type: none;
+    align-items: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 50px;
+  
+}
+main {
+    color: #fff;
+    margin: 0;  
+    padding: 12px 20px;
+    background-color: black;
+    background-position: top;
+}
+main a {
+    color: rgb(255, 0, 0);   
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    color: #fff;
+    margin: 0;  
+    padding: 10px 20px;
+    text-align: center;
+    background-color: black;
+}
